@@ -14,7 +14,7 @@ class String
     self.end_with?("!") ? true : false
   end
 
-  def count_sentences(string)
+  def count_sentences
     self.split(/\!|\?|\./).delete_if {|w| w.size < 2}.size
   end
 end
