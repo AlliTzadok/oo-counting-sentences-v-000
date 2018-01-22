@@ -17,6 +17,6 @@ class String
   def count_sentences
     self.split(/\!|\?|\./).delete_if self.size < 2
     self.size
-    
+
   end
 end
